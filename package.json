@@ -1,0 +1,11 @@
+{
+  "name": "minutes_generator",
+  "version": "1.0.0",
+  "description": "### Code Directory Structure - Scripts contains utility functions and other components can go there the file for now is:     * `utils.py` : this module contains functions for reading and splitting the contents of the file - `generator.py` : this module contains a predict function that calls the text bison model on vertex ai platform to generate the output - `prompts.py` : one common place to store all prompts for different use cases for now it just contains one prompt that instructs the model on how to create the required output. - `main.py` : this is the entry point which contains the following     * A `streamlit` application that displays the transcript contents and subsequently the output     * this file calls the utility functions defined in `utils` to transcript contents and split the contents into chunks     * a call to the LLM to generate the output",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
